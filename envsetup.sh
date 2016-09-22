@@ -1,3 +1,6 @@
+export USE_CCACHE=1
+export CCACHE_DIR=/mnt/android/cache/cc_cm14
+
 function hmm() {
 cat <<EOF
 Invoke ". build/envsetup.sh" from your shell to add the following functions to your environment:
