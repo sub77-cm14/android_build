@@ -1,5 +1,5 @@
 export USE_CCACHE=1
-export CCACHE_DIR=/mnt/android/cache/cc_cm14
+export CCACHE_DIR=/mnt/and/cache/cc_cm14
 
 function hmm() {
 cat <<EOF
