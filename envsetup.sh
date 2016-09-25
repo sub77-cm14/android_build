@@ -2509,7 +2509,7 @@ function set_java_home() {
                 export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
                 ;;
             *)
-                export JAVA_HOME=/usr/lib/jvm/java-8-openjdk
+                export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
                 ;;
         esac
       fi
